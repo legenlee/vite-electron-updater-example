@@ -18,6 +18,12 @@
     Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
     the officially supported framework, also powered by Vite!
   </p>
+
+  <p>
+    Visit <a href="https://github.com/legenlee/vite-electron-updater-example">
+      repository
+    </a> to how to this works!
+  </p>
 </main>
 
 <style>
