@@ -1,0 +1,27 @@
+{
+  "appId": "io.github.legenlee.example",
+  "asar": true,
+  "directories": {
+    "output": "build/${version}"
+  },
+  "files": ["dist"],
+  "mac": {
+    "artifactName": "${productName}.${ext}",
+    "target": ["dmg"]
+  },
+  "win": {
+    "artifactName": "${productName}.${ext}",
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ]
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "deleteAppDataOnUninstall": false
+  }
+}
